@@ -1,0 +1,129 @@
+/*
+Style for the whole site
+Personal website of Radu Alexiu
+Using Bootstrap 4
+Simple and clean, minimalistic design
+Responsive
+*/
+
+/* Global */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* Header */
+#header {
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#header .container {
+    padding: 0.5rem 0;
+}
+
+#header .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#header .logo span {
+    color: #f82249;
+}
+
+#header .logo a {
+    color: #333;
+}
+
+#header .logo a:hover {
+    color: #333;
+}
+
+
+/* Main */
+#main {
+    margin-top: 4rem;
+}
+
+#main .container {
+    padding: 2rem 0;
+}
+
+#main .section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+
+/* Footer */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+#footer .container {
+    padding: 0;
+}
+
+#footer .footer-links {
+    margin-bottom: 1rem;
+}
+
+#footer .footer-links li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #header .logo {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #header .logo {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #main .section-title {
+        font-size: 1.5rem;
+    }
+}
